@@ -1,13 +1,13 @@
 {% set name = "iosacal" %}
-{% set version = "0.6.0" %}
+{% set version = "0.7.0" %}
 
 package:
   name: {{ name|lower }}
   version: {{ version }}
 
 source:
-  url: https://pypi.io/packages/source/{{ name[0] }}/{{ name }}/iosacal-{{ version }}.tar.gz
-  sha256: cd25dc95f5f5d6a0e0db05b2e8c21a7e0ff3505cd94f7876032a252c3f70e609
+  url: https://pypi.org/packages/source/{{ name[0] }}/{{ name }}/iosacal-{{ version }}.tar.gz
+  sha256: be4a9523f3a498cfc69deef9e0d921bdc0fda1cdf990995b9a392623718c13d0
 
 build:
   noarch: python
