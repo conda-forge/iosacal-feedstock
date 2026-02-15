@@ -18,16 +18,16 @@ build:
 
 requirements:
   host:
-    - python >=3.8
+    - python >=3.11
     - setuptools
     - wheel
     - pip
   run:
-    - python >=3.8
-    - numpy >=1.18.0
-    - scipy >=1.1.0
-    - matplotlib-base >=3.0,<4.dev0
-    - click >=8.0,<9.dev0
+    - python >=3.11
+    - numpy >=2.3.0
+    - scipy >=1.17.0
+    - matplotlib-base >=3.10,<4.dev0
+    - click >=8.3,<9.dev0
 
 test:
   imports:
